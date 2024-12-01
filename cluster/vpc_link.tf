@@ -75,4 +75,3 @@ resource "aws_api_gateway_vpc_link" "main" {
   ]
 }
 
-
