@@ -3,27 +3,27 @@ output "cluster_name" {
 }
 
 output "load_balancer_dns" {
-  value = aws_lb.main.dns_name
+  value       = aws_lb.main.dns_name
 }
 
 output "internal_load_balancer_dns" {
-  value = aws_lb.internal.dns_name
+  value       = aws_lb.internal.dns_name
 }
 
 output "lb_external_arn" {
-  value = aws_lb.main.arn
+  value       = aws_lb.main.arn
 }
 
 output "lb_external_listener" {
-  value = aws_lb_listener.main.arn
+  value       = aws_lb_listener.main.arn
 }
 
 output "lb_internal_arn" {
-  value = aws_lb.internal.arn
+  value       = aws_lb.internal.arn
 }
 
 output "lb_internal_listener" {
-  value = aws_lb_listener.internal.arn
+  value       = aws_lb_listener.internal.arn
 }
 
 output "service_discovery_cloudmap" {
